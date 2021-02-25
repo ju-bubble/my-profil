@@ -1,0 +1,78 @@
+body {
+	background-color: #eabf9f; 
+	color:#1e212d;
+	font-weight: 600;  
+	font-family: "Open Sans", sans-serif;
+}
+h1 {
+	color: #383e56; 
+	font-family: 'Open Sans', sans-serif;  
+	font-weight: 700;  
+	letter-spacing: 5px; 
+	font-size: 40px; 
+	text-transform: uppercase;
+}
+h2 {color: #b68973;}
+a {font-family: 'Open Sans', serif; 
+   text-decoration: none;
+   color: #1e212d; 
+   font-size: 16px;
+   margin-top: 20px
+}
+a:hover: {
+   color: yellow;
+
+}
+
+
+/* Custom design with class */
+.container {
+   width: 700px;
+   margin: 40px auto;
+}   
+.card-white {
+   background-color: white;
+	padding: 40px;
+  	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  	border-radius: 4px; 
+  	margin: 20px 0px; 
+  	text-align: center; 
+
+}
+.img-circle {
+   border-radius: 50%;
+}
+.btn-blue{
+   background-color: #763857;
+   color: black; 
+   padding: 15px 20px; 
+   border-radius: 4px;
+}
+ .btn-blue:hover {
+   background-color: black;
+   color: white;
+}
+
+.list-inline {
+   list-style: none;
+   padding-left: 0px;
+   }
+
+.liste-inline li {
+   display: inline;
+   padding-left:10px;
+ }
+.liste-inline i{
+   font-size: 50px; 
+   color: rgb(213, 192, 191);
+}
+.liste-inline i:hover {
+   font-size: 50px; 
+   color: rgb(71, 71, 71);
+}
+
+ #introduction p {
+   margin-bottom: 40px; 
+}
+
+
